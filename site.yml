@@ -1,0 +1,8 @@
+---
+- hosts: vagrant
+  roles:
+  - main
+  - vbguest
+  - ansible
+  become: true
+...

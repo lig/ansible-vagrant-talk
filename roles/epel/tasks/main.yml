@@ -1,0 +1,12 @@
+---
+- name: install epel release
+  yum: name="epel-release" state=latest
+- name: update system
+  yum: name=* state=latest update_cache=yes
+- name: install needed packages
+  yum: pkg={{ item }} state=latest
+  with_items:
+  - gcc
+  - openssl-devel
+  - libffi-devel
+...
