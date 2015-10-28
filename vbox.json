@@ -8,7 +8,7 @@
             "providers": [
                 {
                     "name": "virtualbox",
-                    "url": "http://github.com/lig/ansible-vagrant-talk/releases/3.1/vbox.box",
+                    "url": "https://github.com/lig/ansible-vagrant-talk/releases/download/v1.0/vbox.box",
                     "checksum_type": "sha256",
                     "checksum": "927911763664270f28520e021a8d735ec0df0074bb0525d68f3cf3c5a8d06b35"
                 }
